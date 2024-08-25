@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Contains details about the HTML file which 
+         is not visible in the webpage. -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- display of link shared in facebook -->
+    <meta property="og:title" content="I coded a game with Zuitt!" />
+    <meta
+      property="og:description"
+      content="This Game Development project is powered by Zuitt Coding Bootcamp"
+    />
+    <meta property="og:site_name" content="I coded a game with Zuitt!" />
+    <meta
+      property="og:image"
+      content="[YOUR-LINK]/images/story-thumbnail-2048.jpg"
+    />
+    <meta property="og:image:secure_url" content="[YOUR-LINK]" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>2048</title>
+  </head>
+  <!-- Contains the actual content of the HTML file
+    that are visible in the webapge. -->
+  <body>
+    <div class="container">
+      <h1>2048</h1>
+      <h2>Created by: Takezo</h2>
+      <hr id="top-line" />
+      <div class="header-container">
+        <div class="score-container">
+          <div class="score-label">Score:</div>
+          <div id="score">0</div>
+        </div>
+        <div class="share-button-container">
+          <div class="share-label">Share:</div>
+          <div class="share-icon">
+            <a
+              href="https://www.facebook.com/sharer/sharer.php?u=[deployment-link]"
+              target="_blank"
+            >
+              <img src="./images/share_2048-fb.svg" alt="facebook svg icon" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="board"></div>
+    </div>
+
+    <footer>
+        <!-- zuitt web -->
+        <a href="https://zuitt.co/?referral=2402-org-ali" target="_blank">
+            <i class="fa-solid fa-globe"></i>
+        </a>
+        <!-- facebook -->
+        <a href="https://www.facebook.com/davemartin.jornales" target="_blank">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+        <!-- x -->
+        <a href="https://x.com/d_takezo_" target="_blank">
+            <i class="fa-brands fa-x-twitter"></i>
+        </a>
+        <!-- instagram -->
+        <a href="https://www.instagram.com/d_takezooo/" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <!-- github -->
+        <a href="https://github.com/Takezooo" target="_blank">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <!-- youtube -->
+        <a href="https://www.youtube.com/@takezosrandomness" target="_blank">
+            <i class="fa-brands fa-youtube"></i>
+        </a>
+        
+    </footer>
+
+    <!-- Fontawesome script -->
+    <script src="https://kit.fontawesome.com/8e2d7cdb0f.js" crossorigin="anonymous"></script>
+    <!--  -->
+    <script type="text/javascript" src="logic.js"></script>
+
+    <!-- <div id="board">
+            <div class="tile">[r0, c0]</div>
+            <div class="tile">[r0, c1]</div>
+            <div class="tile">[r0, c2]</div>
+            <div class="tile">[r0, c3]</div>
+
+            <div class="tile">[r1, c0]</div>
+            <div class="tile">[r1, c1]</div>
+            <div class="tile">[r1, c2]</div>
+            <div class="tile">[r1, c3]</div>
+
+            <div class="tile">[r2, c0]</div>
+            <div class="tile">[r2, c1]</div>
+            <div class="tile">[r2, c2]</div>
+            <div class="tile">[r2, c3]</div>
+
+            <div class="tile">[r3, c0]</div>
+            <div class="tile">[r3, c1]</div>
+            <div class="tile">[r3, c2]</div>
+            <div class="tile">[r3, c3]</div>
+        </div> -->
+  </body>
+</html>
